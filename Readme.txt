@@ -17,7 +17,7 @@ Node: 16.13.2
 Package Manager: npm 8.1.2
 OS: win32 x64
 
-Extract code send by toshit
+Extract the code
 Make the database in mysql command line 8.0. - If not download it from https://dev.mysql.com/downloads/windows/installer/8.0.html
 
 Make the tables from backend/table.sql
@@ -29,7 +29,7 @@ npm i --save-dev nodemon
 npm start
  -- get handshake error
 
-Use these command in mysql
+Use these commands in mysql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 flush privileges;
 
@@ -44,12 +44,7 @@ Frontend will start after few min
 powershell Set-ExecutionPolicy RemoteSigned
 echo %PROCESSOR_ARCHITECTURE%
 
-Project chal gaya
 Login using admin@gmail.com and admin
 Then Add category in Manage Category
 Add Product in Manage Product
  
-
-
-
-
